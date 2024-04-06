@@ -1,0 +1,38 @@
+.points {
+    &__list {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: #fff;
+        gap: 30px;
+      }
+    &__item {
+        width: 270px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__title {
+      color: #212121;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+    }
+    &__text {
+      color: #757575;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.42px;
+      width: 270px;
+    }
+
+}
+
+
+  
+
+  
